@@ -1,0 +1,952 @@
+*{
+	margin: 0
+}
+body p{
+	/*
+	font-family: sans-serif;
+	font-weight: 800;
+	*/
+	
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+
+}
+
+
+.portfolioPar p{
+	text-shadow:
+    -0.5px 0 #ffffff,
+    0 0.5px #00adee,
+    0.5px 0 #fff100,
+    0 -0.5px #ec1b23,
+    1px 1px #2e3091;
+    caret-color: transparent;
+}
+#Services{
+	text-shadow:
+    -0.5px 0 #ffffff,
+    0 0.5px #00adee,
+    0.5px 0 #fff100,
+    0 -0.5px #ec1b23,
+    1px 1px #2e3091;
+    caret-color: transparent;
+}
+body a{
+	font-family: sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+header{
+	width: 100%;
+	height: 84px;
+	background-color: black;
+	display: flex;
+	position: fixed;
+	z-index: 5000
+}
+/* #332c2c */
+.logo , .languages{
+	height: 100%;
+	width: 30%;
+}
+.info{
+	height: 100%;
+	width: 40%;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logoFix{
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+.logoFix img{
+	margin-top: 7%
+}
+.redOutline{
+	height: 40%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.redOutline p{
+	font-family: sans-serif;
+	font-weight: 100;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	cursor: pointer;
+}
+.moreInfo{
+	width: 100%;
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info{
+	display: flex;
+	flex-direction: column;
+}
+.sizeFix{
+	width: 100%;
+	height: 35%;
+}
+
+@font-face {
+  	font-family: 'Roboto Black';
+  	src: url('Fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+
+p{
+
+	
+	/*
+	font-family: sans-serif;
+	font-weight: 800; 
+	*/
+	
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 700
+	
+
+}
+
+
+.moreInfo p{
+	font-size: 12px;
+	color: red
+}
+.languages{
+	display: flex;
+}
+.redline{
+	width: 55%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+.redlinemini{
+	width: 100%;
+	height: 45%;
+}
+.infoHolderLanguages{
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.languagesARE{
+	height: 40%;
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.sizeFix2{
+	width: 100%;
+	height: 35%;
+}
+.languagesARE p{
+	font-size: 12px;
+	color: white
+}
+
+
+
+
+
+
+.animation{
+	height: 760px;
+	width: 100%;
+
+}
+
+.animation{
+	position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+.aboutUs{
+	width: 100%;
+	height: 369px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+.infoAboutUs{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.aboutUsButton{
+	width: 390px;
+	height: 80px;
+	margin-left: -5%
+}
+.aboutUsButton p{
+	/*font-family: sans-serif;*/
+	font-weight: 500;
+	font-size: 55px;
+	color: white;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	  text-shadow:
+    -0.5px 0 #ffffff,
+    0 0.5px #00adee,
+    0.5px 0 #fff100,
+    0 -0.5px #ec1b23,
+    1px 1px #2e3091;
+}
+.aboutUsMore{
+	width: 150%;
+	height: 150px;
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.paragraphAU{
+	width: 95%;
+	height: 95%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.BigSIZEfixAU{
+	width: 83%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.aboutUsMore p{
+	color: white;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.portfolio{
+	width: 100%;
+	height: 830px;
+}
+.grey , .white{
+	width: 100%;
+	height: 50%;
+}
+.grey{
+	background-color: black
+}
+.white{
+	background-color: white
+}
+.blackNwhite{
+	width: 100%;
+	height: 90%;
+	background: linear-gradient(to top, white 50%, black 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.portfolioPar{
+	width: 100%;
+	height: 10%;
+	background-color: black;
+}
+
+.blackNwhite{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+/*
+.MobileFriendlyTop{
+	visibility: hidden;
+	position: absolute;
+}
+*/
+.BurgerMenu{
+	visibility: hidden;
+	position: absolute;
+}
+
+
+
+
+.slidEm{
+	position: absolute;
+	width: 1100px;
+	height: 440px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	
+	top: 1350px;
+	left: 50%;
+  	transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.slider {
+  left: 0;
+  top: 0;
+  width: 700%;
+  height: 100%;
+}
+
+.slider img {
+  float: left;
+/*  width: 14.28%;
+  height: 100%; */
+  width: 1100px;
+  height: 440px
+}
+
+/*.controls {
+  position: absolute;
+  margin-bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5000
+}
+*/ 
+.controls{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.controls span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.controls span.active {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+.ButtonsForMySliderAones{
+	width: 100%;
+	height: 20px;
+	display: flex;
+
+}
+
+/*
+.prev , .next {
+	width: 20px;
+	height: 20px;
+	border-radius: 180%;
+	background-color: red;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+#floatEmPortfolioForgottenOne{
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 100;
+	font-size: 55px;
+	margin-left: 10%;
+	color: white
+}
+
+
+.SixPack{
+	width: 100%;
+	height: 800px;
+	background: linear-gradient(to top, black 30%, black 30%, white 30%, white 70%, white 70%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+.TreePack , .TreePack2{
+	width: 90%;
+	height: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.UpperPack1 , .UpperPack2 , .UpperPack3{
+	width: 300px;
+	height: 330px;
+	background-color: black
+}
+.LowerPack1 , .LowerPack2 , .LowerPack3{
+	width: 300px;
+	height: 330px;
+	background-color: black;
+	border: 1px solid white;
+}
+
+
+
+
+.SixPack p{
+	font-family: 'Roboto Black', sans-serif;;
+	font-weight: 700;
+	font-size: 30px;
+	color: black;
+  	writing-mode: vertical-rl;
+  	transform: rotate(180deg);
+  	padding: 20px;
+}
+.TreePack2 p{
+	color: white
+}
+.V1BigDiv , .V2BigDiv , .V3BigDiv , .V4BigDiv , .V5BigDiv , .V6BigDiv {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#V1{
+	margin-bottom: -40.5%;
+	margin-right: -7%;
+}
+#V2{
+	margin-bottom: -60%;
+	margin-right: -7%;
+}
+#V3{
+	margin-bottom: -24%;
+	margin-right: -7%;
+}
+#V4{
+	margin-bottom: -54.5%;
+	margin-right: -6.5%;
+}
+#V5{
+	margin-bottom: -45%;
+	margin-right: -6.5%;
+}
+#V6{
+	margin-bottom: -69%;
+	margin-right: -6.5%;
+}
+/*
+#V4 , #V5 , #V6 {
+	-webkit-text-stroke: 1px #000;
+  text-stroke: 1px #000;
+  text-shadow: 1px 1px 0 #000;
+}
+*/
+
+
+.controls{
+	position: absolute;
+	margin-top: -25%
+}
+.Services{
+	width: 100%;
+	height: 1300px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.FixSize{
+	width: 80%;
+	height: 90%;
+}
+.TitleInfo{
+	width: 100%;
+	height: 5%;
+}
+.TitleInfo p{
+	font-family: 'Roboto Black', sans-serif;;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 2%;
+	color: white
+}
+#Services{
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 100;
+	font-size: 55px;
+	color: white
+}
+.Info{
+	width: 50%;
+	height: 100%;
+}
+.TwoInfoSplit{
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+}
+.LeftHalf{
+	width: 47.5%;
+	height: 100%;
+
+}
+.RightHalf{
+	width: 47.5%;
+	height: 100%;
+}
+.divTopFix{
+	width: 100%;
+	height: 12%;
+}
+.Ser1{
+	width: 100%;
+	height: 22%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+#ServiceType{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 3%;
+	color: white
+}
+.Ser1 p{
+	font-family: 'Roboto Black', sans-serif;;
+	font-weight: 100;
+	font-size: 16px;
+	color: white
+}
+.FixEmSidezzz{
+	width: 5%;
+	height: 100%;
+}
+footer{
+	width: 100%;
+	height: 500px;
+	background-color: black;
+}
+.TopWhite{
+	width: 100%;
+	height: 1%;
+	display: flex;
+	justify-content: center;
+}
+.TopWhiteFix{
+	width: 40%;
+	height: 100%;
+/*	background-color: white */
+}
+.LogoInfo{
+	width: 100%;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+}
+.LogoInfoFix{
+	width: 90%;
+	height: 100%;
+	display: flex;
+}
+.LogoF{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.LogoInfoF{
+	width: 35%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sizeFixSlogan{
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.SectionsF{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.InfoF{
+	width: 25%;
+	height: 42%;
+	display: flex;
+	align-items: flex-end;
+}
+.LogoInfoF p{
+	color: white
+}
+#SecF{
+	font-size: 25px;
+	margin-bottom: 5%;
+	margin-left: 3%;
+	color: white
+}
+.InfoA p{ 
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.InfoA{
+	width: 40%;
+	height:  45%;
+}
+.InfoF p{
+	color: white;
+	margin-top: 5%
+}
+#InF{
+	font-size: 25px;
+	color: white;
+	margin-top: 18%
+}
+.SocialMedia{
+	width: 100%;
+	height: 39%;
+	display: flex;
+	justify-content: center;
+}
+.widthFixer{
+	width: 40%;
+	height: 100%;
+}
+.STSsm{
+	width: 100%;
+	height: 100%
+}
+.STSonSM , .SMlogos , .Cp{
+	width: 100%;
+	height: 33%;
+}
+.STSonSM{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.SMlogos{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.Cp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Cp p{
+	 color: white;
+}
+.UpperPack1{
+	background-image: url("SixPack/Book_Love.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+}
+.UpperPack2{
+	background-image: url("SixPack/Egrow.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+}
+.UpperPack3{
+	background-image: url("SixPack/GoldenBrown.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+}
+.LowerPack1{
+	background-image: url("SixPack/Kitsune.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+}
+.LowerPack2{
+	background-image: url("SixPack/Valhalla.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+}
+.LowerPack3{
+	background-image: url("SixPack/Vibe.jpg");
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+}
+.languagesARE p{
+	cursor: pointer;
+}
+
+.blackOverTop{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7
+}
+
+
+
+.UpperPack1:hover .blackOverTop {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.UpperPack1:hover {
+  background-image: url('SixPack/Book&Love1.jpg');
+}
+
+
+
+
+.UpperPack2:hover .blackOverTop {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.UpperPack2:hover {
+  background-image: url('SixPack/Egrow1.jpg');
+}
+
+
+.UpperPack3:hover .blackOverTop {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.UpperPack3:hover {
+  background-image: url('SixPack/GoldenBrown1.jpg');
+}
+
+
+
+.LowerPack1:hover .blackOverTop {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.LowerPack1:hover {
+  background-image: url('SixPack/Kitsune1.jpg');
+}
+
+
+
+.LowerPack2:hover .blackOverTop {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.LowerPack2:hover {
+  background-image: url('SixPack/Valhalla_1.jpg');
+}
+
+
+
+.LowerPack3:hover .blackOverTop {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.LowerPack3:hover {
+  background-image: url('SixPack/Vibe1.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media only screen and (max-width: 1000px){
+
+
+	.SixPack{
+		height: 3000px;
+		background-color: red
+	}
+	.TreePack{
+		display: flex;
+		flex-direction: column;
+	}
+	.TreePack2{
+		display: flex;
+		flex-direction: column;
+	}
+	#V4{
+		color: black
+	}
+
+
+	.Services{
+		height: 2000px;
+	}
+
+	.TwoInfoSplit{
+		display: flex;
+		flex-direction: column;
+	}
+	
+
+	.LeftHalf , .RightHalf{
+		height: 60%;
+		width: 100%;
+	}
+
+	.Ser1{
+		width: 100%;
+		height: 30%
+	}
+
+	footer{
+		height: 1000px;
+	}
+	.LogoInfoF{
+		margin-left: 2%
+	}
+	.animation{
+	position: relative;
+  	height: 20vh;
+  	overflow: hidden;
+	}
+	
+	.MobileFriendlyTop{
+		visibility: visible;
+		position: fixed;
+		width: 300px;
+		height: 300px;
+		background-color: red;
+		margin-top: 8%
+	}
+	.secT{
+		width: 100%;
+		height: 20%;
+		background-color: red;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} 
+	.languagess{
+		height: 20%;
+		width: 100%;
+		background-color: pink;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.redOutline{
+		visibility: hidden;
+	}
+	.languages{
+		visibility: hidden;
+	}
+
+	.BurgerMenu{
+		position: fixed;
+		visibility: visible;
+		width: 50px;
+		height: 50px;
+		background-color: red;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		z-index: 6000;
+		margin-left: 1%;
+		margin-top: 1%
+	}
+	.whiteLine{
+		width: 100%;
+		height: 20%;
+		background-color: white
+	}
+
+	.logo{
+		margin-left: 90%
+	}
+
+}
+
+
+*/
+
+
+.InfoF a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 100;
+}

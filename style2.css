@@ -1,0 +1,889 @@
+body{
+  
+}
+div{
+	overflow-x: hidden;
+}
+*{
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 70px;
+}
+.bigDiv{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: black;
+}
+.LogoTitle{
+	width: 65%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+h1{
+	font-family: sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 10px;
+}
+.LanSections{
+	width: 35%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.languages{
+	width: 35%;
+	height: 55%;
+	border-left: 3px solid white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+/*
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid black;
+}*/
+.arrow {
+  width: 5px;
+  height: 5px;
+  border: 2px solid white;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  transform: rotate(315deg);
+  margin-bottom: 9%;
+}
+.languages p{
+	font-family: sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 10px;
+}
+.burger{
+	width: 65%;
+	height: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.burgerMenu{
+	width: 45%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.line{
+	width: 100%;
+	height: 15%;
+	background-color: white;
+	border-radius: 20px;
+}
+.Cover{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	border: 1px solid white;
+}
+.AboutUS{
+	width: 100%;
+	height: 550px;
+  background: linear-gradient(to bottom, black 70%, white 70%);
+}
+.Portfolio{
+	width: 100%;
+	height: 500px;
+}
+.title{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.info{
+	width: 100%;
+	height: 45%;
+	display: flex;
+	justify-content: center;
+}
+.FixSize{
+	width: 100%;
+	height: 5%;
+}
+
+
+
+
+
+
+.slider-container {
+  position: absolute;
+  width: 350px;
+  height: 140px;
+  overflow: hidden;
+  top: 450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider {
+  display: flex;
+  width: fit-content;
+  transition: transform 0.3s ease;
+}
+
+.slider img {
+  width: 350px;
+  height: 140px;
+  object-fit: contain;
+}
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+.sliderMain{
+	width: 80%;
+/*	height: 350px;*/
+/*
+  height: 50%;
+	overflow-y: hidden;
+}
+
+
+
+.slidEm{
+	width: 100%;
+	height: 70%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+
+
+
+
+
+
+
+.slider-container {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  overflow: hidden;
+}
+
+.slider {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.slider img {
+  float: left;
+  width: 100%;
+  height: 60%;
+}
+
+/*.controls {
+  position: absolute;
+  margin-bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5000
+}
+*/ 
+
+/*
+
+.controls{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.controls span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.controls span.active {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+.ButtonsForMySliderAones{
+	width: 100%;
+	height: 20px;
+	display: flex;
+
+}
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titleFix{
+	width: 90%;
+	height: 100%;
+}
+.infoFix{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+.AboutUSTitle{
+	width: 40%;
+	height: 70%;
+  position: relative;
+  border-left: 10px solid white;
+  background-image: linear-gradient(to right, white 30%, black 30%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 80% 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+*/
+
+.AboutUSTitle{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white
+}
+
+.AboutUSTitle p{
+	font-family: sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 20px;
+}
+
+
+.infoFix p{
+	font-family: sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 18px;
+	text-align: left;
+}
+
+.titlePortfolio{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.titlePortfolioFix{
+	width: 90%;
+	height: 100%;
+}
+.fixPort{
+	width: 100%;
+	height: 20%;
+}
+/*
+.PortfolioTitle{
+		width: 50%;
+		height: 50%;
+	  position: relative;
+	  border-left: 10px solid black;
+	  background-image: linear-gradient(to right, black 30%, white 30%);
+	  background-repeat: no-repeat;
+	  background-position: left bottom;
+	  background-size: 80% 10px;
+	  display: flex;
+	  justify-content: flex-start;
+	  align-items: center;
+}
+*/
+.PortfolioTitle{
+  width: 100%;
+  height: 40px;
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PortfolioTitle p{
+	font-family: sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 22px;
+  margin-left: 3%
+}
+
+.MiniSlider{
+	width: 100%;
+	height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.slider2 {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slide-container2 {
+  display: inline-block;
+  animation: scroll 15s linear infinite;
+}
+
+.slide2 {
+  width: 250px;
+  height: 330px;
+  background-color: #f0f0f0;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  14.28% {
+    transform: translateX(0);
+  }
+  16.66% {
+    transform: translateX(calc(-250px * 1 + (100vw - 250px) / 2));
+  }
+  30.95% {
+    transform: translateX(calc(-250px * 1 + (100vw - 250px) / 2));
+  }
+  33.33% {
+    transform: translateX(calc(-250px * 2 + (100vw - 250px) / 2));
+  }
+  47.62% {
+    transform: translateX(calc(-250px * 2 + (100vw - 250px) / 2));
+  }
+  50% {
+    transform: translateX(calc(-250px * 3 + (100vw - 250px) / 2));
+  }
+  64.28% {
+    transform: translateX(calc(-250px * 3 + (100vw - 250px) / 2));
+  }
+  66.66% {
+    transform: translateX(calc(-250px * 4 + (100vw - 250px) / 2));
+  }
+  80.95% {
+    transform: translateX(calc(-250px * 4 + (100vw - 250px) / 2));
+  }
+  83.33% {
+    transform: translateX(calc(-250px * 5 + (100vw - 250px) / 2));
+  }
+  97.62% {
+    transform: translateX(calc(-250px * 5 + (100vw - 250px) / 2));
+  }
+  100% {
+    transform: translateX(calc(-250px * 7 + (100vw - 250px) / 2));
+  }
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+.slider2 {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slide-container2 {
+  display: inline-block;
+  animation: scroll 15s linear infinite;
+}
+
+.slide2 {
+  width: 250px;
+  height: 330px;
+  background-color: #f0f0f0; 
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(calc((100vw - 250px) / 2));
+  }
+  16.66% {
+    transform: translateX(calc(-250px * 1 + (100vw - 250px) / 2));
+  }
+  33.33% {
+    transform: translateX(calc(-250px * 2 + (100vw - 250px) / 2));
+  }
+  50% {
+    transform: translateX(calc(-250px * 3 + (100vw - 250px) / 2));
+  }
+  66.66% {
+    transform: translateX(calc(-250px * 4 + (100vw - 250px) / 2));
+  }
+  83.33% {
+    transform: translateX(calc(-250px * 5 + (100vw - 250px) / 2));
+  }
+  100% {
+    transform: translateX(calc(-250px * 6 + (100vw - 250px) / 2));
+  }
+}
+
+
+
+
+.brandName{
+	width: 100%;
+	height: 15%;
+	background-color: black;
+	margin-top: 112%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.slide2:nth-child(1) {
+  background-image: url(SixPack/Book&Love1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide2:nth-child(2) {
+  background-image: url(SixPack/Egrow1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide2:nth-child(3) {
+  background-image: url(SixPack/GoldenBrown1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide2:nth-child(4) {
+  background-image: url(SixPack/Kitsune1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide2:nth-child(5) {
+  background-image: url(SixPack/Timeless.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide2:nth-child(6) {
+  background-image: url(SixPack/Valhalla_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide2:nth-child(7) {
+  background-image: url(SixPack/Vibe1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.services{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black
+}
+.SlidemCenter{
+	width: 85%;
+	height: 100%;
+}
+/*
+.TitleServices{
+	width: 70%;
+	height: 80%;
+  position: relative;
+  border-left: 10px solid white;
+  background-image: linear-gradient(to right, white 30%, black 30%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 90% 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+*/   
+.TitleServices{
+  width: 100%;
+  height: 40px;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}                                                              
+.TitleServices p{
+	font-family: sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 20px;
+  margin-left: 2%
+}
+.FixSizeServices{
+	width: 100%;
+	height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  max-height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.accordion {
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.accordion-title {
+  background-color: #eee;
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  background-color: black;
+  overflow: visible;
+  transition: max-height 0.5s ease;
+}
+
+.accordion-content.active {
+  display: block;
+  max-height: none;
+  background-color: black;
+}
+.container h2 , p {
+	font-family: sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 450px;
+  background-color: black
+}
+
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white; /* Adjust the color here */
+  transform: rotate(135deg);
+}
+.accordion-title{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.FixAccordion{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 5%
+}
+.triangle{
+	margin-left: 2%;
+	margin-top: 1%
+}
+.FixAccordion h2{
+	margin-left: 2%
+}
+
+
+
+
+.LogoNr{
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TheRest{
+  width: 100%;
+  height: 50%;
+}
+.Slogan{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.Slogan h3{
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 20px;
+}
+.Slogan a{
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 18px;
+}
+.SM{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.NewBarSectionVnV{
+  width: 200px;
+  height: 250px;
+  position: fixed;
+  right: 0;
+  margin-top: 2.5%;
+  background-color: black;
+  z-index: 5000;
+  visibility: hidden;
+}
+header{
+  position: fixed;
+  z-index: 5000;
+  border: 1px solid white;
+}
+.languagesTrio{
+  width: 100%;
+  height: 20%;
+  background-color: black;
+  display: flex;
+}
+.EN , .AM , .RU{
+  width: 33%;
+  height: 100%;
+  border-left: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.EN p , .AM p , .RU p{
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 15px;
+}
+.divSectionsScroll1 , .divSectionsScroll2 , .divSectionsScroll3 , .divSectionsScroll4{
+  width: 100%;
+  height: 20%;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.NewBarSectionVnV h2{
+  font-family: sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+
